@@ -2,4 +2,4 @@
 
 ## **Projects**
 
-- JS + CSS Clock - [Code]() - [CodePen](https://codepen.io/sztr/pen/exMZKJ) - [Ref](https://javascript30.com/)
+- JS + CSS Clock - [Code](https://github.com/sztxr/JavaScript-Projects/blob/master/JS%20and%20CSS%20Clock/index.html) - [CodePen](https://codepen.io/sztr/pen/exMZKJ) - [Ref](https://javascript30.com/)
