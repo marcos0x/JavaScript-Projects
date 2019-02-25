@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Konami Code | Key Sequence Detection Easter Egg</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <canvas id="draw"></canvas>
+    <div class="container">
+      <div class="box">
+        <h1>Enter Konami Code <span class="flash">_</span></h1>
+        <div class="code">UP UP DOWN DOWN LEFT RIGHT LEFT RIGHT B A</div>
+        <div class="copy">by sztr</div>
+      </div>
+    </div>
+
+    <script>
+      // Press the SPACE bar to reset
+
+      const pressed = [];
+      const secretCode = '38384040373937396665';
+
+      window.addEventListener('keyup', e => {
+        pressed.push(e.keyCode);
+        pressed.splice(
+          -secretCode.length - 1,
+          pressed.length - secretCode.length
+        );
+
+        if (pressed.join('').includes(secretCode)) {
+          document.body.classList.add('rainbow');
+        }
+
+        if (e.keyCode === 32) {
+          window.location.reload(false);
+        }
+      });
+    </script>
+  </body>
+</html>
