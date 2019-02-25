@@ -9,3 +9,5 @@
 - Flex Panels - [Code](https://github.com/sztxr/JavaScript-Projects/blob/master/Flex%20Panels/index.html) - [CodePen](https://codepen.io/sztr/pen/mvgzyO) - [Ref](https://javascript30.com/)
 
 - Ajax Typeahead - [Code](https://github.com/sztxr/JavaScript-Projects/blob/master/Ajax%20Typeahead/index.html) - [CodePen](https://codepen.io/sztr/pen/zeXeNg) - [Ref](https://javascript30.com/)
+
+- Key Sequence Detection - [Code](https://github.com/sztxr/JavaScript-Projects/blob/master/Key%20Sequence%20Detection/index.html) - [CodePen](https://codepen.io/sztr/pen/GeKrMm) - [Ref](https://javascript30.com/)
