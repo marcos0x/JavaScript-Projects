@@ -1,0 +1,109 @@
+@charset "UTF-8";
+@import url(https://fonts.googleapis.com/css?family=Caveat+Brush|Shadows+Into+Light);
+
+html {
+  box-sizing: border-box;
+  background: url(https://res.cloudinary.com/spiderlily/image/upload/v1551497425/fancycrave-284219-unsplash.jpg)
+    center no-repeat;
+  background-size: cover;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-size: 10px;
+  font-family: Futura, 'Trebuchet MS', Arial, sans-serif;
+}
+
+*,
+*:before,
+*:after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+.wrapper {
+  padding: 2rem;
+  max-width: 400px;
+  background: rgba(255, 255, 255, 0.95);
+  box-shadow: 0 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  margin: 1rem;
+  text-align: center;
+  font-size: 4.5rem;
+  font-weight: 200;
+  font-family: 'Caveat Brush', cursive;
+}
+
+input {
+  font-size: 2rem;
+  font-family: 'Shadows Into Light', cursive;
+}
+
+.plates {
+  text-align: left;
+  list-style: none;
+}
+.plates li {
+  border-bottom: 1px dotted rgba(0, 0, 0, 0.2);
+  padding: 1rem 0;
+  font-weight: 100;
+  display: flex;
+  font-family: 'Shadows Into Light', cursive;
+  font-size: 2rem;
+}
+.plates input {
+  display: none;
+}
+.plates label {
+  flex: 1;
+  cursor: pointer;
+}
+
+.add-items {
+  margin-top: 2rem;
+}
+.add-items input {
+  padding: 1rem;
+  outline: 0;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  background-color: #000;
+  color: #fff;
+}
+.add-items input:hover {
+  cursor: pointer;
+}
+
+.buttons {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem 0 2rem;
+}
+.buttons input {
+  padding: 0.5rem 1rem;
+  outline: 0;
+  background-color: #fff;
+  color: #000;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+}
+.buttons input:hover {
+  cursor: pointer;
+}
+
+.plates input + label:before {
+  content: '⬜️';
+  display: inline-block;
+  width: 2rem;
+  margin-right: 1rem;
+}
+
+.plates input:checked + label {
+  text-decoration: line-through;
+}
+.plates input:checked + label:before {
+  content: '✖';
+  margin: 0 0.5rem;
+}
