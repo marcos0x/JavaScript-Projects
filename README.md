@@ -13,3 +13,5 @@
 - Key Sequence Detection - [Code](https://github.com/sztxr/JavaScript-Projects/blob/master/Key%20Sequence%20Detection/index.html) - [CodePen](https://codepen.io/sztr/pen/GeKrMm) - [Ref](https://javascript30.com/)
 
 - LocalStorage and Event Delegation - [Code](https://github.com/sztxr/JavaScript-Projects/blob/master/LocalStorage%20and%20Event%20Delegation/index.html) - [CodePen](https://codepen.io/sztr/pen/XGdKKd) - [Ref](https://javascript30.com/)
+
+- Mouse Move Shadow - [Code]() - [CodePen](https://codepen.io/sztr/pen/RdKdYG) - [Ref](https://javascript30.com/)
