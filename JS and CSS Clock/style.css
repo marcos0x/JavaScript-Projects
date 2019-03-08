@@ -133,17 +133,3 @@ p {
 .second-hand {
   height: 2px;
 }
-
-/*
-.hand {
-  top: 13%;
-  height: 50%;
-  position: absolute;
-  left: 50%;
-  transform-origin: 50% 75%;
-  border-radius: 10000px;
-  background: black;
-  transform: rotate(90deg);
-  transition: all 0.05s;
-  transition-timing-function: cubic-bezier(0.1, 2.7, 0.58, 1);
-} */
