@@ -13,26 +13,21 @@ const unsorted = [
    "Nineteen Eighty-Four"
 ];
 
-(function buildList() {
+function buildList() {
    listElement.innerHTML = unsorted.map(item => `<li>${item}</li>`).join("");
-})();
+}
 
 function strip(item) {
    return item.replace(/^(a |the |an )/i, "").trim();
 }
 
 function sortByTitle() {
-   console.log("title");
-
    const sorted = [...unsorted].sort((a, b) => (strip(a) > strip(b) ? 1 : -1));
-
    listElement.innerHTML = sorted.map(item => `<li>${item}</li>`).join("");
 }
 
 function sortByYear() {
-   console.log("year");
-
-   listElement.innerHTML = unsorted.map(item => `<li>${item}</li>`).join("");
+   buildList();
 }
 
 function handleStates(e) {
@@ -48,3 +43,4 @@ function handleStates(e) {
 }
 
 buttons.forEach(btn => btn.addEventListener("click", handleStates));
+window.onload = buildList();
