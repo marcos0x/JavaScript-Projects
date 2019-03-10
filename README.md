@@ -15,3 +15,5 @@
 - LocalStorage and Event Delegation - [Code](https://github.com/sztxr/JavaScript-Projects/blob/master/LocalStorage%20and%20Event%20Delegation/app.js) - [CodePen](https://codepen.io/sztr/pen/XGdKKd) - [Ref](https://javascript30.com/)
 
 - Mouse Move Shadow - [Code](https://github.com/sztxr/JavaScript-Projects/blob/master/Mouse%20Move%20Shadow/app.js) - [CodePen](https://codepen.io/sztr/pen/RdKdYG) - [Ref](https://javascript30.com/)
+
+- Click and Drag to Scroll - [Code](https://github.com/sztxr/JavaScript-Projects/blob/master/Click%20and%20Drag%20to%20Scroll/app.js) - [CodePen](https://codepen.io/sztr/pen/EMXLzY) - [Ref](https://javascript30.com/)
