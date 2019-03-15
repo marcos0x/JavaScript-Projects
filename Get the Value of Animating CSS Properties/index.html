@@ -63,26 +63,6 @@
       <p>Value of the stop property:<span id="counter">0px</span></p>
     </div>
 
-    <script>
-      const image = document.getElementById('img');
-      const requestAnimationFrame =
-        window.requestAnimationFrame ||
-        window.mozRequestAnimationFrame ||
-        window.webkitRequestAnimationFrame ||
-        window.msRequestAnimationFrame;
-
-      let counter = 0;
-
-      function updateValue() {
-        const textField = document.getElementById('counter');
-        let imageTopPosition = getComputedStyle(image).top;
-
-        textField.textContent = imageTopPosition;
-
-        requestAnimationFrame(updateValue);
-      }
-
-      requestAnimationFrame(updateValue);
-    </script>
+    <script src="app.js"></script>
   </body>
 </html>
