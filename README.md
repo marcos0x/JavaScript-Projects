@@ -21,3 +21,5 @@
 - Sort Without Articles - [Code](https://github.com/sztxr/JavaScript-Projects/blob/master/Sort%20Without%20Articles/app.js) - [CodePen](https://codepen.io/sztr/pen/ywoYaO) - [Ref](https://javascript30.com/)
 
 - Map and Sort (Star Wars Edition) - [Code](https://github.com/sztxr/JavaScript-Projects/blob/master/Sort%20Without%20Articles/app.js) - [CodePen](https://codepen.io/sztr/pen/drzMeR) - [Ref](https://javascript30.com/)
+
+- Get the Value of Animating CSS Properties - [Code](https://github.com/sztxr/JavaScript-Projects/blob/master/Get%20the%20Value%20of%20Animating%20CSS%20Properties/app.js) - [CodePen](https://codepen.io/sztr/pen/KEQjbr) - [Ref](https://www.kirupa.com/html5/get_the_value_of_css_properties_as_they_are_animating.htm)
